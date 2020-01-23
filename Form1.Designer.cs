@@ -9,7 +9,8 @@ namespace ProcessNote
         ///  Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
-
+        readonly int WIDTH = 1024;
+        readonly int HEIGHT = 768;
         /// <summary>
         ///  Clean up any resources being used.
         /// </summary>
@@ -33,7 +34,7 @@ namespace ProcessNote
         {
             this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(WIDTH, HEIGHT);
             this.Text = "Process Note";
             this.MaximizeBox = false;
             this.MinimizeBox = false;
